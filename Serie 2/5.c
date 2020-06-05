@@ -2,7 +2,7 @@
 *@file 5.c
 *@brief Escriba un programa que solicite al usuario una frase e indique si es un palíndromo.
 *@author Eduardo Pérez García y César Arellano
-*@date 02/06/2020
+*@date 04/06/2020
 */
 
 #include <stdio.h>
@@ -14,7 +14,7 @@ int main(void)
   int i,j;
   printf("Escribe una frase: ");
   scanf(" %[^\n]",frase);
-  
+
   for(i=0; frase[i] != '\0'; i++) // Convertir frase a minúsculas y quitar espacios
 	{
 		if(frase[i]==' ') // Si hay un espacio

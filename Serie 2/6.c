@@ -1,8 +1,8 @@
 /*
-*@file 5.c
+*@file 6.c
 *@brief Programa que invierte el orden de las palabras de una frase ingresada por el usuario.
 *@author Eduardo Pérez García y César Arellano
-*@date 02/06/2020
+*@date 04/06/2020
 */
 
 #include <stdio.h>
